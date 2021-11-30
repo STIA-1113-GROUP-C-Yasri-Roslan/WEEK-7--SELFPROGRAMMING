@@ -1,26 +1,33 @@
-package repetitionandselection;
+package test1;
+
 import java.util.Scanner;
-public class Bankchecker {
+
+public class BANK {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner sc= new Scanner (System.in);
-		
-		for(int i=2;i>=0;i--) {
-            System.out.print("Enter your account password: ");
-            int a =sc.nextInt();
-            int pass = 12345;
-            if(a==pass) {
-            System.out.println("Your password is correct.");
-            break;
-            }else
-            System.out.print("Your password is wrong! You have "+i+" chance. Please enter again: ");
-            System.out.println();
-            if(i==0) {
-            System.out.print("Sorry, you need to wait 5 minutes to key in your passwork again!");
+        Scanner sc = new Scanner (System.in);
+        
+        int y;
+        
+        for (y=1; y<=4; y++) {
+            System.out.print("PLEASE ENTER YOUR PIN NUMBER  : ");
+            int Pin = sc.nextInt();
             
-    }
-		}
-		
+        int pin = 654321;
+        	
+        if (Pin==pin) {
+        	System.out.print("YOUR PIN NUMBER IS CORRECT");
+        break; }
+        
+        else {
+        	System.out.print("YOUR PIN NUMBER IS WRONG !! PLEASE TRY AGAIN");
+        }
+        
+        System.out.println();
+        
+        if (y>=4)
+        	System.out.print("SORRY PIN NUMBER IS WRONG,PLEASE REFER TO THE CAUNTER");
+        }
 	}
 }

@@ -1,6 +1,18 @@
-Enter your account password: 125
-Your password is wrong! You have 2 chance. Please enter again: 
-Enter your account password: 152
-Your password is wrong! You have 1 chance. Please enter again: 
-Enter your account password: 12345
-Your password is correct.
+PLEASE ENTER YOUR PIN NUMBER  : 654321
+YOUR PIN NUMBER IS CORRECT
+
+
+
+
+PLEASE ENTER YOUR PIN NUMBER  : 25623
+YOUR PIN NUMBER IS WRONG !! PLEASE TRY AGAIN
+
+PLEASE ENTER YOUR PIN NUMBER  : 225115
+YOUR PIN NUMBER IS WRONG !! PLEASE TRY AGAIN
+
+PLEASE ENTER YOUR PIN NUMBER  : 125122
+YOUR PIN NUMBER IS WRONG !! PLEASE TRY AGAIN
+
+PLEASE ENTER YOUR PIN NUMBER  : 121252
+YOUR PIN NUMBER IS WRONG !! PLEASE TRY AGAIN
+SORRY PIN NUMBER IS WRONG,PLEASE REFER TO THE CAUNTER
